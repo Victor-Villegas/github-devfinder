@@ -1,0 +1,32 @@
+.message {
+    margin-top: 1rem;
+    padding: 1rem 4rem;
+    position: relative;
+
+    &:before {
+        content: '';
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 0.25rem;
+        height: 100%;
+    }
+}
+
+.error {
+    &:before {
+        background-color: var(--danger);
+    }
+}
+
+.warning {
+    &:before {
+        background-color: var(--warning);
+    }
+}
+
+.success {
+    &:before {
+        background-color: var(--success);
+    }
+}

@@ -1,0 +1,7 @@
+.search-bar {
+    .form {
+        background-color: var(--card-background-color);
+        display: flex;
+        gap: 1rem;
+    }
+}

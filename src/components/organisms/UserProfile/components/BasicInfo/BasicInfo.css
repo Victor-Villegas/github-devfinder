@@ -1,0 +1,22 @@
+.basic-info {
+    align-items: center;
+    display: grid;
+    gap: 0.5rem;
+    grid-auto-flow: dense;
+    grid-row: 1/2;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+
+    .user-name, .user-url, .user-bio {
+        grid-column: 1/2;
+    }
+
+    .user-name {
+        margin: 0;
+    }
+
+    .joined-date {
+        grid-column: 2/3;
+        text-align: end;
+    }
+}

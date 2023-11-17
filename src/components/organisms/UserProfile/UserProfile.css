@@ -1,0 +1,13 @@
+.user-profile {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+
+    .user-information {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, minmax(min-content, max-content));
+        gap: 2rem;
+    }
+}

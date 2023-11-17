@@ -1,0 +1,16 @@
+.contact-info {
+    grid-row: 3/4;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+    .location, .link, .twitter, .company {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .not-available {
+        color: var(--subtext-color);
+    }
+}

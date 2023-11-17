@@ -1,0 +1,36 @@
+.variant-text {
+    background: transparent;
+    border: none;
+    color: var(--accent-color);
+    padding: 0.25rem 0.5rem;
+
+    &:hover {
+        color: var(--hover-color);
+    }
+}
+
+.variant-contained {
+    background: var(--accent-color);
+    border-radius: 0.25rem;
+    border: none;
+    color: var(--text-color);
+    padding: 0.25rem 0.5rem;
+
+    &:hover {
+        background: var(--hover-color);
+    }
+}
+
+.variant-outlined {
+    background: transparent;
+    border-color: var(--accent-color);
+    border-radius: 0.25rem;
+    border: 0.25rem;
+    color: var(--accent-color);
+    padding: 0.25rem 0.5rem;
+
+    &:hover {
+        border-color: var(--hover-color);
+        color: var(--hover-color);
+    }
+}
