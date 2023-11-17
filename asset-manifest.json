@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/github-devfinder/static/css/main.0c3ade6b.css",
+    "main.js": "/github-devfinder/static/js/main.28b4d937.js",
+    "static/js/787.0e42b951.chunk.js": "/github-devfinder/static/js/787.0e42b951.chunk.js",
+    "index.html": "/github-devfinder/index.html",
+    "main.0c3ade6b.css.map": "/github-devfinder/static/css/main.0c3ade6b.css.map",
+    "main.28b4d937.js.map": "/github-devfinder/static/js/main.28b4d937.js.map",
+    "787.0e42b951.chunk.js.map": "/github-devfinder/static/js/787.0e42b951.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c3ade6b.css",
+    "static/js/main.28b4d937.js"
+  ]
+}
