@@ -20,12 +20,12 @@ const UserProfile: FC<Props> = ({ username }) => {
     enabled: !!username,
   });
 
-  if (!data) return null;
-
   if (isLoading) return <Message variant="warning">Loading...</Message>;
 
   if (isError)
     return <Message variant="error">Error fetching user profile</Message>;
+
+  if (!data) return null;
 
   return (
     <Card className="user-profile">
